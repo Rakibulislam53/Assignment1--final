@@ -131,7 +131,7 @@ header {
   background-color: #f00;
 }
 /* Midnight party section style end */
-
+/* Place section style star */
 #place {
   display: flex;
   justify-content: center;
@@ -154,10 +154,10 @@ header {
   font-family: Inter;
   font-size: 32px;
   font-weight: 600;
-  line-height: 56px;
-  max-width: 550px;
-  padding: 100px 386px 214px 385px;
+  width: 550px;
+  /* padding: 100px 386px 214px 385px; */
   text-align: center;
+  margin: 0 auto;
 }
 .place-btn {
   padding: 16px 32px;
@@ -183,6 +183,81 @@ span {
   font-size: 32px;
   font-weight: 600;
 }
+/* Place section style end */
+
+#best-offer{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1320px;
+  height: 500px;
+  margin-top: 120px;
+}
+.best-offer-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.offer-title{
+  color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.offer-heading{
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+margin-top: 16px;
+width: 400px;
+}
+.offer-description{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+max-width: 400px;
+margin-top: 22px;
+}
+
+.offer-image>img{
+  
+  border: 10px solid red;
+  border-radius: 50%;
+  padding: 30px;
+  
+}
+.offer-image{
+padding-left: 50px;
+}
+.happy-image{
+  margin-top: 43px;
+}
+.happy-title{
+  color: #F00;
+font-family: Inter;
+font-size: 48px;;
+font-weight: 700;
+}
+.happy-description{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+
+}
+.happy2024{
+  margin-left: 120px;
+}
+
+
+
+
 
 /* Best Gifts section style start */
 
