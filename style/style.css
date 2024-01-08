@@ -11,7 +11,7 @@ body {
 }
 /* Banner section style start */
 header {
-  background-image: url(../resources/Banner\ Image.png);
+  background:linear-gradient(80deg,#070211 0%,rgba(7,2,17,0) 100%), url(../resources/Banner\ Image.png);
   background-repeat: no-repeat;
   background-position: center center;
   width: 1320px;
@@ -173,7 +173,7 @@ header {
   margin-top: 48px;
   cursor: pointer;
 }
-.place-btn:hover{
+.place-btn:hover {
   background-color: fuchsia;
 }
 span {
@@ -185,7 +185,9 @@ span {
 }
 /* Place section style end */
 
-#best-offer{
+/* offer section style start  */
+
+#best-offer {
   /* display: flex; */
   justify-content: center;
   align-items: center;
@@ -195,69 +197,63 @@ span {
   height: 500px;
   margin-top: 120px;
 }
-.best-offer-container{
+.best-offer-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.offer-title{
-  color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+.offer-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
 }
-.offer-heading{
+.offer-heading {
   color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-margin-top: 16px;
-width: 400px;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  margin-top: 16px;
+  width: 400px;
 }
-.offer-description{
-  color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-max-width: 400px;
-margin-top: 22px;
+.offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 400px;
+  margin-top: 22px;
 }
 
-.offer-image>img{
-  
+.offer-image > img {
   border: 10px solid red;
   border-radius: 50%;
   padding: 30px;
-  
 }
-.offer-image{
-padding-left: 50px;
+.offer-image {
+  padding-left: 50px;
 }
-.happy-image{
+.happy-image {
   margin-top: 43px;
 }
-.happy-title{
-  color: #F00;
-font-family: Inter;
-font-size: 48px;;
-font-weight: 700;
+.happy-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
 }
-.happy-description{
-  color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-
+.happy-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
 }
-.happy2024{
+.happy2024 {
   margin-left: 120px;
 }
-
-
-
-
+/* offer secton style end  */
 
 /* Best Gifts section style start */
 
@@ -265,7 +261,7 @@ font-weight: 400;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 .gift-title {
   color: #f00;
