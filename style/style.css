@@ -85,7 +85,7 @@ header {
   padding-top: 70px;
 }
 .mid-night-text {
-  max-width: 700px;
+  max-width: 600px;
 }
 .mid-night {
   background-image: url(../resources/Vectorrr.png);
@@ -131,6 +131,58 @@ header {
   background-color: #f00;
 }
 /* Midnight party section style end */
+
+#place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1320px;
+  height: 500px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+
+  border-radius: 20px;
+  margin-top: 120px;
+}
+.place-text {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  max-width: 550px;
+  padding: 100px 386px 214px 385px;
+  text-align: center;
+}
+.place-btn {
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  background: #f00;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 48px;
+  cursor: pointer;
+}
+.place-btn:hover{
+  background-color: fuchsia;
+}
+span {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
 
 /* Best Gifts section style start */
 
@@ -223,7 +275,6 @@ header {
 .subscribe-input {
   display: inline flex;
   margin: 48px 0 0 300px;
- 
 }
 
 #email1 {
@@ -290,7 +341,6 @@ footer {
 hr {
   width: 65%;
   margin: 50px auto;
-
 }
 .icon-container {
   display: flex;
