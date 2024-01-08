@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+/* Banner section style start */
+header {
+  background-image: url(../resources/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.banner-title1 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+.banner-title2 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  max-width: 632px;
+  padding-left: 340px;
+}
+.banner {
+  padding-top: 190px;
+  margin-top: 50px;
+}
+/* Banner section style end */
+
+/* 65% OFF section style start */
+
+.main-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 120px;
+}
+.description {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 48px;
+}
+.sub-title {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+.off-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+/* 65% OFF section style end */
+
+/* Midnight party section style start */
+
+.mid-night-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+.mid-night-text {
+  max-width: 700px;
+}
+.mid-night {
+  background-image: url(../resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 1320px;
+  min-height: 620px;
+  margin-top: 120px;
+}
+.mid-night-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+.mid-night-title:hover {
+  color: yellow;
+}
+.mid-night-description {
+  color: #ffffffcc;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 900px;
+}
+.btn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #070211;
+  margin-top: 48px;
+  margin-left: 25px;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #f00;
+}
+/* Midnight party section style end */
+
+/* Best Gifts section style start */
+
+.gift {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.gift-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 130px;
+}
+.gift-heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 16px;
+}
+.gift-description {
+  color: #07021199;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 900px;
+  margin-top: 22px;
+}
+
+.image-container1 {
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+}
+.image-container2 {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+/* Gifts Images hover style start */
+.images {
+  overflow: hidden;
+}
+.images img {
+  transition: 1s;
+}
+.images:hover img {
+  transform: scale(1.2);
+}
+/* Gifts Images hover style end */
+
+/* Subscribe section style start */
+
+.subscribe {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.subscribe-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-heading {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 900px;
+  padding: 0 212px;
+  margin-top: 22px;
+}
+.subscribe-input {
+  display: inline flex;
+  margin: 48px 0 0 300px;
+}
+#email1 {
+  padding: 25px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: 0 solid white;
+  min-width: 460px;
+}
+.btn1 {
+  padding: 20px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: 0;
+  min-width: 170px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: rgba(0, 255, 255, 0.351);
+}
+.subscribe-image > img {
+  margin-top: 80px;
+}
+/* Subscribe section style end */
+
+/* footer style section start */
+
+footer {
+  background: #070211;
+  width: 100%;
+  height: 600px;
+}
+.footer-description {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  max-width: 375px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.info-container {
+  display: flex;
+  gap: 16px;
+}
+.footer-container {
+  padding-top: 120px;
+}
+hr {
+  width: 65%;
+  margin: 50px auto;
+
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image1 {
+  padding-left: 24px;
+}
+.all-right {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.copy-right-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Footer style section end */
+/* And Finish this Assignment */
