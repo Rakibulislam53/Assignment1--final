@@ -11,7 +11,8 @@ body {
 }
 /* Banner section style start */
 header {
-  background:linear-gradient(80deg,#070211 0%,rgba(7,2,17,0) 100%), url(../resources/Banner\ Image.png);
+  background: linear-gradient(80deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Banner\ Image.png);
   background-repeat: no-repeat;
   background-position: center center;
   width: 1320px;
@@ -254,6 +255,72 @@ span {
   margin-left: 120px;
 }
 /* offer secton style end  */
+
+.holi-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.holi-heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+}
+.heading {
+  color: #f00;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holi-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  width: 1068px;
+  margin: 0 auto;
+}
+.holiday-container{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#red{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 0;
+  position: relative;
+  bottom: 70px;
+}
+.holi-image1{
+  position: relative;
+  top: 50px;
+  left: 200px;
+}
+.holi-image2{
+  position: relative;
+left: -370px;
+top: 60px;
+}
+.holi-image0{
+  position: relative;
+  left: -70px;
+  top: 150px;
+}
+.holi-image0{
+  z-index: 10;
+}
+}
+.red{
+  position: relative;
+  top: 50px;
+}
 
 /* Best Gifts section style start */
 
